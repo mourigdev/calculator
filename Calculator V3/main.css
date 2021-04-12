@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.numbers {
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.symbol {
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 40px 13px;
+    background-color: #f7f5f5;
+    color: #9e9e9e;
+    cursor: pointer;
+}
+
+.egal {
+    font-size: 40px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    background-color: #f7f5f5;
+    color: #9e9e9e;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.clear {
+    font-size: 20px;
+    text-align: center;
+    padding: 13px 0px;
+    /* display: flex; */
+    width: 50px;
+    /* height: 50px; */
+    margin: 20px;
+    background-color: #f7f5f5;
+    color: #9e9e9e;
+    cursor: pointer;
+    margin-top: 0;
+}
+
+.show {
+    height: 90px;
+    box-shadow: 0px 0px 18px rgb(109 108 108 / 16%);
+    /* border: 1px solid #d0d0d0; */
+}
+
+.container {
+    width: 355px;
+    /* border: 1px solid #d0d0d0; */
+    margin-top: 45px;
+
+    animation: sweetDisplay 2s;
+
+}
+
+.current {
+    height: 50px;
+}
+
+.current {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous {
+    height: 40px;
+}
+
+.numbersDiv {
+    margin: 20px 0;
+}
+
+.egalClear {
+    /* margin-top: -22px; */
+}
+
+.symbolsDiv {
+    height: 275px;
+}
+
+
+p#outputText {
+    font-size: 30px;
+    margin: 2px 15px;
+    font-weight: 600;
+}
+
+.con {
+    /* border: 2px solid #f8f5f5;
+    border-top: none; */
+    height: 300px;
+}
+
+
+
+p#output1 {
+    font-size: 25px;
+    margin: 12px 19px;
+    color: #d4c7c7;
+}
+
+
+.footer {
+    background-color: #f9f9f9;
+    border-radius: 11px;
+}
+
+
+p#author {
+    padding: 5px 0px 15px 0;
+    font-family: monospace;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+span {
+    font-size: 26px;
+    color: #3f51b5;
+}
+
+a {
+    text-decoration: none;
+    color: #3f51b5;
+}
+
+#dot {
+    background-color: #ffffff;
+    color: #3f51b5;
+    margin-top: 0;
+}
+
+#zero {
+    background-color: #ffffff;
+    color: #3f51b5;
+    margin-top: 0;
+}
+
+.allbuttonsContainer {
+    border: 2px solid #f8f5f5;
+    border-top: none;
+    animation: sweetDisplay 2s;
+}
+
+
+@keyframes sweetDisplay {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        width: 355px;
+    }
+}
+
+div#back {
+    display: flex;
+    align-items: flex-end;
+    margin: 18px 30px;
+}
+
+
+img {
+    width: 40px;
+}
